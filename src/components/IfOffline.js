@@ -16,6 +16,10 @@ export default class IfOffline extends Component {
     window.removeEventListener('offline', this.goOffLine);
   }
 
+  goOnline = () => this.setState({ onLine: true })
+
+  goOffline = () => this.setState({ onLine: false })
+
   render() {
     const { children } = this.props;
     const { onLine } = this.state;
