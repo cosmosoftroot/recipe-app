@@ -10,6 +10,18 @@ PWA que utiliza la API de MealDB para mostrar recetas con sus instrucciones. Alg
 * Web Share API
 * Creado con [Create React App](https://github.com/facebookincubator/create-react-app).
 
+
+## Instalación
+
+Instalación de dependencias
+
+    npm install
+    npm add workbox-webpack-plugin react-app-rewire-workbox react-app-rewired
+
+Si no está instalado serve de manera global
+
+    sudo npm install -g serve
+
 ## Scripts
 
 * `npm install` para instalar las dependencias

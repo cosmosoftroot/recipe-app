@@ -19,7 +19,7 @@ export default class Timer extends React.Component {
       return 'You blocked notifications';
     }
 
-    if (Notification.permission === 'grant') {
+    if (Notification.permission === 'granted') {
       return;
     }
 
